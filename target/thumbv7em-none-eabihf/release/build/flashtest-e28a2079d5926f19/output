@@ -1,0 +1,3 @@
+cargo:rustc-link-search=/home/sarathk/RUST/P/STM32_safe_i2c_project/M/i2c_driver_for_stm32f411/stm32f4_StSafe_test/target/thumbv7em-none-eabihf/release/build/flashtest-e28a2079d5926f19/out
+cargo:rerun-if-changed=build.rs
+cargo:rerun-if-changed=memory.x
