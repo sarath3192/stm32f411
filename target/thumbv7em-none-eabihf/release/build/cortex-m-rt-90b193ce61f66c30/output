@@ -1,6 +1,0 @@
-cargo:rustc-cfg=cortex_m
-cargo:rustc-cfg=armv7m
-cargo:rustc-cfg=has_fpu
-cargo:rustc-link-search=/home/sarathk/RUST/P/STM32_safe_i2c_project/M/i2c_driver_for_stm32f411/stm32f4_StSafe_test/target/thumbv7em-none-eabihf/release/build/cortex-m-rt-90b193ce61f66c30/out
-cargo:rerun-if-changed=build.rs
-cargo:rerun-if-changed=link.x.in

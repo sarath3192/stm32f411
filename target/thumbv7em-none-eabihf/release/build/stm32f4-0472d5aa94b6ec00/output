@@ -1,3 +1,0 @@
-cargo:rustc-link-search=/home/sarathk/RUST/P/STM32_safe_i2c_project/M/i2c_driver_for_stm32f411/stm32f4_StSafe_test/target/thumbv7em-none-eabihf/release/build/stm32f4-0472d5aa94b6ec00/out
-cargo:rerun-if-changed=src/stm32f411/device.x
-cargo:rerun-if-changed=build.rs
