@@ -61,7 +61,7 @@ fn main() -> ! {
         //writing the crc values and data into buffer
         i2c.write(addr, &tx_buf);
         //some delay 
-        asm::delay(10000);
+        asm::delay(5000);
         //reading the data echo data from stsafe
         i2c.read(addr,&mut rx_data);
         asm::delay(1000);
